@@ -1,3 +1,3 @@
 site :opscode
 
-cookbook 'mongodb'
+cookbook 'mongodb', git: 'git://github.com/geerzo/chef-mongodb.git'
